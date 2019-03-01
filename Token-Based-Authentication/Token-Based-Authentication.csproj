@@ -123,6 +123,7 @@
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\NeedAuthController.cs" />
     <Compile Include="Controllers\NoAuthController.cs" />
+    <Compile Include="Filters\JwtAuthAttribute.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
